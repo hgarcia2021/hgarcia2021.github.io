@@ -8,7 +8,7 @@
             "name": "Launch Chrome",
             "request": "launch",
             "type": "pwa-chrome",
-            "url": "http://localhost:80/index.php",
+            "url": "http://localhost:80/webappenblanc/index.php",
             "webRoot": "${workspaceFolder}"
         },
         {
