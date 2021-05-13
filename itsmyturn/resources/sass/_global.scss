@@ -1,0 +1,93 @@
+.titulos{
+    font-size: 90px;
+    font-style: italic;
+    color: #84B9D4;
+    margin-top: -80px;
+    margin-bottom: 40px;
+    margin-left: 120px;
+}
+
+#header {
+
+
+    align-items: center;
+    text-align:left;
+
+    height: 1000px;
+  }
+  #presentacion{
+    color: #84B9D4;
+    padding-top: 350px;
+    padding-left: 50px;
+    font-size: 60px;
+    font-style: italic;
+  }
+  .reflect {
+    color: #84B9D4;
+    margin-bottom: 40px;
+    -webkit-box-reflect: below -15px linear-gradient(transparent, rgba(255, 255, 255, 0.3));
+    font-size: 90px;
+    font-style: italic;
+    margin:0px auto;
+    padding-top: 150px;
+    padding-left: 50px;
+}
+section {
+    padding: 150px 0;
+    background-color: $secondary;
+  }
+  .navbar{
+      background-color: #141415;
+      color: #84B9D4;
+      position: fixed;
+    z-index: 100;
+    padding: 0;
+
+    width: 100%;
+    transition: all 0.5s;
+  }
+  .flotar {
+    animation-name: floating;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+@keyframes floating {
+    0% {
+        transform: translate(0, 0px);
+    }
+    65% {
+        transform: translate(0, 20px);
+    }
+    100% {
+        transform: translate(0, 0px);
+    }
+}
+
+#perfil{
+
+}
+p{
+    font-size: 22px;
+
+}
+#skills{
+
+    background-color: #141415 ;
+}
+
+h5{
+    color: #84B9D4;
+}
+
+h2{
+    font-size:120px;
+}
+#footer{
+    background-color: #141415 ;
+}
+.card{
+
+    margin-left: 160px ;
+    border-radius: 60px;
+}
