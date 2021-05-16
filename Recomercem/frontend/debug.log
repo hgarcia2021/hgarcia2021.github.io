@@ -1,0 +1,21 @@
+[1218/005114.978:ERROR:directory_reader_win.cc(43)] FindFirstFile: El sistema no puede encontrar la ruta especificada. (0x3)
+[1218/090037.035:ERROR:crash_report_database_win.cc(455)] unexpected header
+[1218/090226.043:ERROR:crash_report_database_win.cc(455)] unexpected header
+[1218/091226.044:ERROR:crash_report_database_win.cc(455)] unexpected header
+[1218/091226.044:ERROR:directory_reader_win.cc(43)] FindFirstFile: El sistema no puede encontrar la ruta especificada. (0x3)
+[1218/091226.045:ERROR:crash_report_database_win.cc(455)] unexpected header
+[1218/091226.046:ERROR:crash_report_database_win.cc(455)] unexpected header
+[1218/091726.043:ERROR:crash_report_database_win.cc(455)] unexpected header
+<<<<<<< HEAD
+[1218/093037.989:ERROR:crash_report_database_win.cc(455)] unexpected header
+=======
+[1218/093611.677:ERROR:crash_report_database_win.cc(455)] unexpected header
+>>>>>>> 2db9c1b0c2bc8777602660b47503b8a9ef26976b
+[1218/094451.453:ERROR:crash_report_database_win.cc(455)] unexpected header
+[1218/094534.509:ERROR:crash_report_database_win.cc(455)] unexpected header
+<<<<<<< Updated upstream
+=======
+[1218/100357.281:ERROR:crash_report_database_win.cc(455)] unexpected header
+[1218/100422.453:ERROR:crash_report_database_win.cc(455)] unexpected header
+[0111/091153.732:ERROR:crash_report_database_win.cc(455)] unexpected header
+>>>>>>> Stashed changes

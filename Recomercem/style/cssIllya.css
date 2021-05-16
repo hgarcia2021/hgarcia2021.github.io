@@ -1,0 +1,65 @@
+
+body {
+    /*background-image: url("./imagenes/red-checkered-picnic-textile-rustic-wooden-planks-background-red-checkered-picnic-textile-rustic-wooden-planks-background-157511390.png");*/
+   }
+   #espaciado{
+    position: absolute;
+    top: 18px;
+    left: 50px;
+   
+   }
+#puntuacion, #fallos{
+    border: 1px solid #ced4da;
+    text-align:center !important;
+    padding-top: 15px !important;
+    font-size: 20px !important;
+    color: black;
+}
+#crono{
+    border: 1px solid #ced4da;
+    text-align:center;
+    padding-top: 20px;
+    font-family: "Homer Simpson UI";
+    font-size: 20px;  
+    color: black;
+}
+#resultado{
+    top: 10px;
+}
+#footer{
+    position: absolute;
+}
+
+.container {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    width: 80% !important;
+    height: 80%;
+    transform: scale(0.8);
+  }
+#ganar{
+    position: absolute;
+     bottom: 2px;
+     top:130px;
+    /*right: 200px;*/
+    margin-left: 450px;
+}
+@keyframes ggeasy{
+    from{
+        transform-scale:scale(1.0)
+    }to{
+        transform-scale:scale(1.4);
+    }
+}
+
+#volverajugarckm{
+
+    background-color: #a50000;
+
+}
+
+#salirckm{
+
+    background-color: #a50000;
+
+} 

@@ -1,0 +1,40 @@
+[1008/112238.283:ERROR:crash_report_database_win.cc(428)] unexpected header
+[1008/112658.207:ERROR:crash_report_database_win.cc(428)] unexpected header
+[1008/113050.672:ERROR:crash_report_database_win.cc(428)] unexpected header
+[1217/091539.525:ERROR:crash_report_database_win.cc(455)] unexpected header
+[1217/091548.922:ERROR:crash_report_database_win.cc(455)] unexpected header
+[1217/091855.545:ERROR:crash_report_database_win.cc(455)] unexpected header
+[1217/092510.614:ERROR:crash_report_database_win.cc(455)] unexpected header
+[1217/094811.156:ERROR:crash_report_database_win.cc(455)] unexpected header
+[1218/091129.263:ERROR:crash_report_database_win.cc(455)] unexpected header
+[1218/091420.976:ERROR:crash_report_database_win.cc(455)] unexpected header
+[1218/092451.262:ERROR:crash_report_database_win.cc(455)] unexpected header
+[1218/092554.715:ERROR:crash_report_database_win.cc(455)] unexpected header
+[1218/092714.095:ERROR:crash_report_database_win.cc(455)] unexpected header
+[1218/093714.095:ERROR:crash_report_database_win.cc(455)] unexpected header
+[1218/093714.096:ERROR:directory_reader_win.cc(43)] FindFirstFile: El sistema no puede encontrar la ruta especificada. (0x3)
+[1218/093714.097:ERROR:crash_report_database_win.cc(455)] unexpected header
+[1218/093714.097:ERROR:crash_report_database_win.cc(455)] unexpected header
+[1218/094214.095:ERROR:crash_report_database_win.cc(455)] unexpected header
+[1218/094304.525:ERROR:crash_report_database_win.cc(455)] unexpected header
+[1218/094612.025:ERROR:crash_report_database_win.cc(455)] unexpected header
+[1218/095006.689:ERROR:crash_report_database_win.cc(455)] unexpected header
+[1218/095714.099:ERROR:crash_report_database_win.cc(455)] unexpected header
+[1218/100600.169:ERROR:crash_report_database_win.cc(455)] unexpected header
+[1218/100846.998:ERROR:crash_report_database_win.cc(455)] unexpected header
+[0108/172938.101:ERROR:directory_reader_win.cc(43)] FindFirstFile: El sistema no puede encontrar la ruta especificada. (0x3)
+[0108/192905.748:ERROR:directory_reader_win.cc(43)] FindFirstFile: El sistema no puede encontrar la ruta especificada. (0x3)
+[0108/195228.418:ERROR:directory_reader_win.cc(43)] FindFirstFile: El sistema no puede encontrar la ruta especificada. (0x3)
+[0108/202010.936:ERROR:directory_reader_win.cc(43)] FindFirstFile: El sistema no puede encontrar la ruta especificada. (0x3)
+[0109/184720.971:ERROR:directory_reader_win.cc(43)] FindFirstFile: El sistema no puede encontrar la ruta especificada. (0x3)
+[0109/195305.128:ERROR:directory_reader_win.cc(43)] FindFirstFile: El sistema no puede encontrar la ruta especificada. (0x3)
+[0109/204022.651:ERROR:directory_reader_win.cc(43)] FindFirstFile: El sistema no puede encontrar la ruta especificada. (0x3)
+[0109/210556.249:ERROR:directory_reader_win.cc(43)] FindFirstFile: El sistema no puede encontrar la ruta especificada. (0x3)
+[0110/153230.586:ERROR:directory_reader_win.cc(43)] FindFirstFile: El sistema no puede encontrar la ruta especificada. (0x3)
+[0110/160047.624:ERROR:directory_reader_win.cc(43)] FindFirstFile: El sistema no puede encontrar la ruta especificada. (0x3)
+[0110/173752.619:ERROR:directory_reader_win.cc(43)] FindFirstFile: El sistema no puede encontrar la ruta especificada. (0x3)
+[0112/104540.765:ERROR:directory_reader_win.cc(43)] FindFirstFile: El sistema no puede encontrar la ruta especificada. (0x3)
+[0112/132105.331:ERROR:directory_reader_win.cc(43)] FindFirstFile: El sistema no puede encontrar la ruta especificada. (0x3)
+[0119/123125.507:ERROR:directory_reader_win.cc(43)] FindFirstFile: El sistema no puede encontrar la ruta especificada. (0x3)
+[0119/191028.804:ERROR:directory_reader_win.cc(43)] FindFirstFile: El sistema no puede encontrar la ruta especificada. (0x3)
+[0120/122209.418:ERROR:directory_reader_win.cc(43)] FindFirstFile: El sistema no puede encontrar la ruta especificada. (0x3)

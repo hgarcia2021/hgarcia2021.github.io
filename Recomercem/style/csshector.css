@@ -1,0 +1,339 @@
+@font-face {
+  font-family: fornite;
+  src: url("Fortnite.ttf");
+  }
+@font-face{
+  font-family: murcielago;
+  src: url("murcielago.ttf");
+}
+
+#textTituloNav{
+  color: #e43b3e;
+  }
+/*define what will be displayed in the canvas at the beginning of the game*/
+#todo
+{
+  height: 600px;
+  width: 1300px;
+  background-image: url(../img/super.jpg);
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
+
+#fondo{height: 100%;
+width: 100%;}
+
+
+#pantalla
+{
+	height: 600px; 
+	width: 900px; 
+	margin-right: auto;
+	display: flex;
+  float: left;
+  overflow: hidden;
+
+}
+
+#inicio
+{
+
+  height: 350px;
+  width: 300px;
+  margin-top: 100px;
+  position: absolute;
+  margin-left: 430px;
+  border-radius: 10px;
+  background-color:#998F9D ;
+  border-style: solid;
+  border-color: yellow;
+
+}
+
+#items
+{
+
+  height: 300px;
+  width: 150px;
+  float: left;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: none;
+}
+
+.item
+{
+  height: 60px;
+  width: 100px;
+  color: yellow;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  font-family: murcielago;
+  
+  
+}
+#puntuacion{}
+h3{
+  text-align: center;
+  font-size: 20px;
+}
+
+#carro{
+
+	/*background-image: url(../img/carrito3.gif);*/
+	width:100px;
+	height:100px;
+	position: absolute;
+  top: 740px;
+  left: 850px;
+  visibility: hidden;
+
+}
+.cuadrado
+{
+   width: 70px;
+   height: 70px;
+   position: relative;
+   margin: 70px;
+   
+   display: none;
+}
+
+.cuadrado.moviendo1
+{
+  animation-duration: 2.7s;
+  animation-name: moviendo1;
+  animation-iteration-count: infinite;
+  animation-direction:normal;
+  animation-timing-function: linear;
+  
+}
+@keyframes moviendo1 
+{
+    from {
+      top: -500px;
+    }
+    to {
+      top: 850px;
+	}
+}
+.cuadrado.moviendo2
+{
+  animation-duration: 2.5s;
+  animation-name: moviendo2;
+  animation-iteration-count: infinite;
+  animation-direction:normal;
+  animation-timing-function: linear;
+  
+}
+@keyframes moviendo2 {
+    from {
+      top: -400px;
+      
+    }
+    to {
+      top: 850px;
+	}
+}
+
+.cuadrado.moviendo3{
+  animation-duration: 2.9s;
+  animation-name: moviendo3;
+  animation-iteration-count: infinite;
+  animation-direction:normal;
+  animation-timing-function: linear;
+  
+}
+@keyframes moviendo3 {
+    from {
+      top: -300px;
+    }
+    to {
+      top: 850px;
+	}
+}
+.cuadrado.moviendo4{
+  animation-duration: 2.8s;
+  animation-name: moviendo4;
+  animation-iteration-count: infinite;
+  animation-direction:normal;
+  animation-timing-function: linear;
+  
+}
+@keyframes moviendo4 {
+    from {
+      top: -450px;
+    }
+    to {
+      top: 850px;
+	}
+}
+
+
+
+.boton
+{
+  background: #998F9D ;
+  border-bottom: 5px solid #7C7580 ;
+  border-radius: 12px;
+  box-shadow: 6px 6px 6px #999 ;
+  color: yellow ;
+  cursor: pointer ;
+  display: block ;  
+  font-family: fornite ;
+  font-size: 32px ;
+  margin-top: 80px;
+  margin: 80px auto ;
+  padding: 20px  ;
+  text-align: center !important;
+  transition: all 0.2s ease 0s !important;
+  width: 200px !important;
+  border-color: yellow !important;
+  border-style: solid !important;
+
+
+}
+#btnIniciar
+{
+  margin-top: 20px;
+}
+
+#btnreiniciar
+{
+  font-size: 22px;
+  margin-top: -10px;
+  
+}
+#btnsalir
+{
+  font-size: 22px;
+  margin-top: -30px;
+}
+.boton:hover{
+	background: #998F9D;
+}
+.boton:active {
+	box-shadow: 2px 2px 2px #777, 0px 0px 35px 0px #998F9D;
+	border-bottom:1px solid #7C7580;
+  text-shadow:  0px 0px 5px #fff, 0px 0px 5px #fff;
+	transform: translateY(4px);
+  transition: all 0.1s ease 0s;
+  margin: 80px auto 76px auto;
+}
+
+.vida
+{
+  height: 25px ;
+  width:25px;
+  float: left;
+  margin-left: 5px;
+  margin-top: 0px;
+
+}
+
+#imgvida1{
+
+  height:100%; 
+  width:100%;
+}
+#imgvida2{
+
+  height:100%; 
+  width:100%;
+}
+#imgvida3{
+
+  height:100%; 
+  width:100%;
+}
+#img1{
+  height: 100%; width: 100%;
+}
+#img2{
+  height: 100%; width: 100%;
+}
+#img3{
+  height: 100%; width: 100%;
+}
+#img4{
+  height: 100%; width: 100%;
+}
+
+#instrucciones{
+
+
+width: 250px;
+background-color: #998F9D;
+margin-left: auto;
+margin-right: auto;
+margin-top: -70px;
+font-family: fornite;
+color: yellow;
+border-radius: 10px;
+border-color: yellow;
+border-style: solid;
+font-size: 20px;
+padding: 10px;
+}
+.p{
+
+  margin:20px;
+  
+}
+#puntuacion
+{
+  margin-left: 44px;
+  font-size: 20px;
+  margin-top: -10px;
+}
+
+#gameover
+{
+  display: none;
+  height: 350px;
+  width: 400px;
+  background-color: #998F9D;
+  margin-top: 100px;
+  position: absolute;
+  margin-left: 350px;
+  border-radius: 10px;
+  align-items: center;
+  border-style: solid;
+  border-color: yellow;
+}
+
+#win{
+  display: none;
+  height: 350px;
+  width: 400px;
+  background-color: #998F9D;
+  margin-top: 100px;
+  position: absolute;
+  margin-left: 350px;
+  border-radius: 10px;
+  align-items: center;
+  border-style: solid;
+  border-color: yellow;
+
+}
+#perder
+{
+  font-family: fornite;
+  font-size: 30px;
+  color: yellow;
+  margin-left: 40px;
+  
+
+}
+
+#Record{
+display: none;
+
+}
+
+

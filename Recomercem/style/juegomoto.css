@@ -1,0 +1,898 @@
+#textPuntos{
+    position: absolute;
+    top: 100%;
+    left: 15%;
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    margin: auto; 
+    text-align: center;
+
+}
+
+#textPuntosWin{
+    position: absolute;
+    top: 100%;
+    left: 15%;
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    margin: auto; 
+    text-align: center;
+    
+    }
+
+#gameover{
+    background-image: url(../img/gameover.png);
+    position: absolute;
+    width: 512px;
+    height: 124px; 
+    z-index: 100;
+    top: 300px;
+    left: 200px;
+    animation-name: gameover;
+    animation-iteration-count: infinite;
+    animation-duration: 1.5s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    visibility: hidden;
+    animation-play-state: paused;
+
+}
+
+@keyframes gameover{
+    from{
+        transform: scale(1.0);
+    }
+    to{
+        transform: scale(1.4);
+    }
+}
+
+#win{
+    background-image: url(../img/win.png);
+    position: absolute;
+    width: 592px;
+    height: 200px; 
+    z-index: 100;
+    top: 300px;
+    left: 200px;
+    animation-name: win;
+    animation-iteration-count: infinite;
+    animation-duration: 1.5s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    visibility: hidden;
+    animation-play-state: paused;
+
+}
+
+@keyframes win{
+    from{
+        transform: scale(1.0);
+    }
+    to{
+        transform: scale(1.4);
+    }
+}
+
+
+
+
+
+/* COCHES HACIA ARRIBA */
+#imgCoche1{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#coche1{
+    width: 200px;
+    height: 300px;
+    top: 900px;
+    left: 400px;
+    z-index: 1;
+    position: absolute;
+    visibility: hidden;
+    animation-play-state: paused;
+}
+@keyframes coche1-0{
+    from{
+        top: 900px;
+        left: 400px;
+    }
+    to{
+        top: -300px;
+        left: 400px;
+    }
+}
+@keyframes coche1-30{
+    from{
+        top: 900px;
+        left: 400px;
+    }
+    to{
+        top: -300px;
+        left: 400px;
+    }
+}
+@keyframes coche1-60{
+    from{
+        top: 900px;
+        left: 400px;
+    }
+    to{
+        top: -300px;
+        left: 400px;
+    }
+}
+@keyframes coche1-90{
+    from{
+        top: 900px;
+        left: 400px;
+    }
+    to{
+        top: -300px;
+        left: 400px;
+    }
+}
+
+
+#imgCoche4{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#coche4{
+    width: 200px;
+    height: 300px;
+    top: 900px;
+    left: 400px;
+    z-index: 1;
+    position: absolute;
+    visibility: hidden;
+    animation-play-state: paused;
+}
+@keyframes coche4-0{
+    from{
+        top: 900px;
+        left: 400px;
+    }
+    to{
+        top: -300px;
+        left: 400px;
+    }
+}
+@keyframes coche4-30{
+    from{
+        top: 900px;
+        left: 400px;
+    }
+    to{
+        top: -300px;
+        left: 400px;
+    }
+}
+@keyframes coche4-60{
+    from{
+        top: 900px;
+        left: 400px;
+    }
+    to{
+        top: -300px;
+        left: 400px;
+    }
+}
+@keyframes coche4-90{
+    from{
+        top: 900px;
+        left: 400px;
+    }
+    to{
+        top: -300px;
+        left: 400px;
+    }
+}
+
+/* COCHES HACIA ABAJO */
+#imgCoche2{
+    width: 80%;
+    height: 100%;
+    object-fit: cover;
+}
+#coche2{
+    width: 200px;
+    height: 300px;
+    top: -300px;
+    left: 20px;
+    z-index: 1;
+    position: absolute;
+    visibility: hidden;
+    animation-play-state: paused;
+}
+@keyframes coche2-0{
+    from{
+        top: -300px;
+        left: 20px;
+    }
+    to{
+        
+        top: 1200px;
+        left: 20px;
+    }
+}
+@keyframes coche2-30{
+    from{
+        top: -300px;
+        left: 20px;
+    }
+    to{
+        
+        top: 1200px;
+        left: 20px;
+    }
+}
+@keyframes coche2-60{
+    from{
+        top: -300px;
+        left: 20px;
+    }
+    to{
+        
+        top: 1200px;
+        left: 20px;
+    }
+}
+@keyframes coche2-90{
+    from{
+        top: -300px;
+        left: 20px;
+    }
+    to{
+        
+        top: 1200px;
+        left: 20px;
+    }
+}
+
+#imgCoche3{
+    width: 80%;
+    height: 100%;
+    object-fit: cover;
+}
+#coche3{
+    width: 200px;
+    height: 300px;
+    top: -300px;
+    left: 20px;
+    z-index: 1;
+    position: absolute;
+    visibility: hidden;
+    animation-play-state: paused;
+}
+@keyframes coche3-0{
+    from{
+        top: -300px;
+        left: 20px;
+    }
+    to{
+        
+        top: 1200px;
+        left: 20px;
+    }
+}
+@keyframes coche3-30{
+    from{
+        top: -300px;
+        left: 20px;
+    }
+    to{
+        
+        top: 1200px;
+        left: 20px;
+    }
+}
+@keyframes coche3-60{
+    from{
+        top: -300px;
+        left: 20px;
+    }
+    to{
+        
+        top: 1200px;
+        left: 20px;
+    }
+}
+@keyframes coche3-90{
+    from{
+        top: -300px;
+        left: 20px;
+    }
+    to{
+        
+        top: 1200px;
+        left: 20px;
+    }
+}
+
+/* COCHES LOCOS QUE PASAN POR EL MEDIO */
+
+/* HACIA ABAJO */
+
+#imgcocheMedio1{
+    width: 80%;
+    height: 100%;
+    object-fit: cover;
+}
+#cocheMedio1{
+    width: 200px;
+    height: 300px;
+    top: -300px;
+    left: 200px;
+    z-index: 1;
+    position: absolute;
+    visibility: hidden;
+    animation-play-state: paused;
+}
+@keyframes cocheMedio1-0{
+    from{
+        top: -300px;
+        left: 200px;
+    }
+    to{
+        
+        top: 1200px;
+        left: 200px;
+    }
+}
+@keyframes cocheMedio1-30{
+    from{
+        top: -300px;
+        left: 200px;
+    }
+    to{
+        
+        top: 1200px;
+        left: 200px;
+    }
+}
+@keyframes cocheMedio1-60{
+    from{
+        top: -300px;
+        left: 200px;
+    }
+    to{
+        
+        top: 1200px;
+        left: 200px;
+    }
+}
+@keyframes cocheMedio1-90{
+    from{
+        top: -300px;
+        left: 200px;
+    }
+    to{
+        
+        top: 1200px;
+        left: 200px;
+    }
+}
+
+
+/* HACIA ARRIBA */
+
+#imgcocheMedio2{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#cocheMedio2{
+    width: 200px;
+    height: 300px;
+    top: 900px;
+    left: 220px;
+    z-index: 1;
+    position: absolute;
+    animation-name: cocheMedio2;
+    visibility: hidden;
+    animation-play-state: paused;
+}
+@keyframes cocheMedio2-0{
+    from{
+        top: 900px;
+        left: 220px;
+    }
+    to{
+        top: -300px;
+        left: 220px;
+    }
+}
+@keyframes cocheMedio2-30{
+    from{
+        top: 900px;
+        left: 220px;
+    }
+    to{
+        top: -300px;
+        left: 220px;
+    }
+}
+@keyframes cocheMedio2-60{
+    from{
+        top: 900px;
+        left: 220px;
+    }
+    to{
+        top: -300px;
+        left: 220px;
+    }
+}
+@keyframes cocheMedio2-90{
+    from{
+        top: 900px;
+        left: 220px;
+    }
+    to{
+        top: -300px;
+        left: 220px;
+    }
+}
+/* ------------------------------------------------------------------------------ */
+#botonStart{
+    background-image: url(../img/start.png);
+    position: absolute;
+    width: 420px;
+    height: 230px; 
+    z-index: 1;
+    top: 300px;
+    left: 200px;
+    animation-name: btnStart;
+    animation-iteration-count: infinite;
+    animation-duration: 1.5s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+
+}
+
+@keyframes btnStart{
+    from{
+        transform: scale(1.0);
+    }
+    to{
+        transform: scale(1.4);
+    }
+}
+
+#tituloInstr{
+    margin-left: 15px;
+    color: black;
+}
+#textInstr{
+    margin-left: 15px;
+    color: black;
+}
+#vida1{
+    width: 50px; 
+    height: 50px;
+}
+#vida2{
+    width: 50px; 
+    height: 50px;
+}
+#vida3{
+    width: 50px; 
+    height: 50px;
+}
+#vida4{
+    width: 50px; 
+    height: 50px;
+    
+}
+#contenedorVidas{
+    margin-left: 25px;
+}
+#tituloVidas{
+    padding-left: 80px; 
+    color: black;
+       
+}
+#tituloTiempo{
+    margin-left: 70px;
+    color: black;
+}
+#textTitulo{
+    margin-left: 30px;
+    color: black;
+}
+#textCrono{
+    margin-left: 100px;
+    color: black;
+
+}
+#titulo{
+    padding: 10px;
+    position: absolute;
+    width: 290px;
+    height: 80px;
+    border: #f8df7d 2px solid; 
+    top: 30px;
+    left: 610px;
+    background-color: #adb5bd; 
+    
+}
+#crono{
+    padding: 10px;
+    position: absolute;
+    width: 290px;
+    height: 100px;
+    border: #f8df7d 2px solid; 
+    top: 130px;
+    left: 610px;
+    background-color: #adb5bd; 
+    
+}
+#desc{
+    padding: 10px;
+    position: absolute;
+    width: 290px;
+    height: 300px;
+    border: #f8df7d 2px solid; 
+    top: 260px;
+    left: 610px;
+    background-color: #adb5bd; 
+    
+}
+#vidas{
+    
+    padding: 10px;
+    position: absolute;
+    width: 290px;
+    height: 130px;
+    border: #f8df7d 2px solid;
+    top: 600px;
+    left: 610px;
+    background-color: #adb5bd; 
+    
+}
+#volverajugarmoto{
+    padding: 10px;
+    position: absolute;
+    width: 290px;
+    height: 50px;
+    visibility: hidden;
+    top: 760px;
+    left: 610px;
+    background-color: black;
+}
+
+#salirmoto{
+    padding: 10px;
+    position: absolute;
+    width: 290px;
+    height: 50px;
+    visibility: hidden;
+    top: 830px;
+    left: 610px;
+    background-color: black;
+}
+
+#juego{
+    background-color: #a50000; 
+    width: 920px; 
+    height: 910px; 
+    position: absolute; 
+    top: -50px; 
+    left: 250px;  
+    border: #f8df7d 5px solid;  
+    border-radius: 5px;
+    z-index: 1;
+    transform: scale(0.7);
+
+
+}
+
+
+#carretera{
+    float: left;
+    background-image: url(../img/carretera.png); 
+    width: 600px; 
+    height: 900px; 
+    position: absolute; 
+    background-size: contain;
+    cursor: default;
+    border-right: #f8df7d 5px solid; ;
+    overflow: hidden;
+    top: 0px;
+    left: 0px;
+    
+
+}
+
+#moto{
+    background-image: url(../img/motillo.png); 
+    width: 150px; 
+    height: 150px; 
+    position: absolute; 
+    top: 650px; 
+    left: 350px; 
+    background-size: contain;
+    animation-iteration-count: 4;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    animation-play-state: paused;
+}
+@keyframes colision1{
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+    }
+}
+@keyframes colision2{
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+    }
+}
+@keyframes colision3{
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+    }
+}
+@keyframes colision4{
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+    }
+}
+
+/* LINEA 1 */
+#linea1{
+    background-image: url(../img/linea.PNG); 
+    width: 19px; 
+    height: 150px; 
+    position: absolute; 
+    top: -150px; 
+    left: 135px; 
+    background-size: contain; 
+    animation-name: linea1;
+    
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: paused;
+}
+@keyframes linea1-0{
+    0% {top: -150px; 
+        left: 135px;
+        }
+    100% {top: 900px; 
+        left: 135px;
+        }
+
+
+}
+@keyframes linea1-30{
+    0% {top: -150px; 
+        left: 135px;
+        }
+    100% {top: 900px; 
+        left: 135px;
+        }
+
+
+}
+@keyframes linea1-60{
+    0% {top: -150px; 
+        left: 135px;
+        }
+    100% {top: 900px; 
+        left: 135px;
+        }
+
+
+}
+@keyframes linea1-90{
+    0% {top: -150px; 
+        left: 135px;
+        }
+    100% {top: 900px; 
+        left: 135px;
+        }
+
+
+}
+
+/* LINEA 2 */
+#linea2{
+    background-image: url(../img/linea.PNG); 
+    width: 19px; 
+    height: 150px; 
+    position: absolute; 
+    top: -150px; 
+    left: 450px; 
+    background-size: contain; 
+    animation-name: linea2;
+    
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: paused;
+}
+@keyframes linea2-0{
+    0% {top: -150px; 
+        left: 450px; 
+        }
+    100% {top: 900px; 
+        left: 450px; 
+        }
+        
+        
+}
+@keyframes linea2-30{
+    0% {top: -150px; 
+        left: 450px; 
+        }
+    100% {top: 900px; 
+        left: 450px; 
+        }
+        
+        
+}
+@keyframes linea2-60{
+    0% {top: -150px; 
+        left: 450px; 
+        }
+    100% {top: 900px; 
+        left: 450px; 
+        }
+        
+        
+}
+@keyframes linea2-90{
+    0% {top: -150px; 
+        left: 450px; 
+        }
+    100% {top: 900px; 
+        left: 450px; 
+        }
+        
+        
+}
+
+/* LINEA 3 */
+#linea3{
+    background-image: url(../img/linea.PNG); 
+    width: 19px; 
+    height: 150px; 
+    position: absolute; 
+    top: -150px; 
+    left: 135px; 
+    background-size: contain; 
+    animation-name: linea3;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    visibility: hidden;
+    animation-play-state: paused;
+}
+@keyframes linea3-0{
+    0% {top: -150px; 
+        left: 135px;
+        visibility: visible;
+        }
+    100% {top: 900px; 
+        left: 135px;
+        }
+    
+    
+}
+@keyframes linea3-30{
+    0% {top: -150px; 
+        left: 135px;
+        visibility: visible;
+        }
+    100% {top: 900px; 
+        left: 135px;
+        }
+    
+    
+}
+@keyframes linea3-60{
+    0% {top: -150px; 
+        left: 135px;
+        visibility: visible;
+        }
+    100% {top: 900px; 
+        left: 135px;
+        }
+    
+    
+}
+@keyframes linea3-90{
+    0% {top: -150px; 
+        left: 135px;
+        visibility: visible;
+        }
+    100% {top: 900px; 
+        left: 135px;
+        }
+    
+    
+}
+
+    
+    /* LINEA 4 */
+#linea4{
+    background-image: url(../img/linea.PNG); 
+    width: 19px; 
+    height: 150px; 
+    position: absolute; 
+    top: -150px; 
+    left: 450px; 
+    background-size: contain; 
+    animation-name: linea4;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    visibility: hidden;
+    animation-play-state: paused;
+}
+@keyframes linea4-0{
+    0% {top: -150px; 
+        left: 450px; 
+        visibility: visible;
+        }
+    100% {top: 900px; 
+        left: 450px; 
+        }
+        
+        
+}
+@keyframes linea4-30{
+    0% {top: -150px; 
+        left: 450px; 
+        visibility: visible;
+        }
+    100% {top: 900px; 
+        left: 450px; 
+        }
+        
+        
+}
+@keyframes linea4-60{
+    0% {top: -150px; 
+        left: 450px; 
+        visibility: visible;
+        }
+    100% {top: 900px; 
+        left: 450px; 
+        }
+        
+        
+}
+@keyframes linea4-90{
+    0% {top: -150px; 
+        left: 450px; 
+        visibility: visible;
+        }
+    100% {top: 900px; 
+        left: 450px; 
+        }
+        
+        
+}
+
+
+
+#contenedorJuego{
+width: 100%;
+height: 700px;
+
+}

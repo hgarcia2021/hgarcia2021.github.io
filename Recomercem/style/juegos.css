@@ -1,0 +1,50 @@
+#textTituloNav{
+    color: #e43b3e;
+    }
+    
+#footerLinks{
+    margin-bottom: 15px;
+    }
+    
+    
+    .card-img-top {
+        width: 100%;
+        height: 15vw;
+        object-fit: cover;
+    }
+
+#juego1
+{
+ 
+    margin-top: 50px;
+    
+
+}
+
+#juego2
+{
+
+    margin-top: 50px;
+    
+}
+
+#juego3
+{
+
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+
+#juego4
+{
+
+    margin-top: 50px;
+    margin-bottom: 50px;
+   
+}
+
+.btnjugar{
+
+    background-color: #e43b3e;
+}
