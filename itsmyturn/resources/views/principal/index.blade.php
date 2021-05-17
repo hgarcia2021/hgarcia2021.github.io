@@ -11,3 +11,9 @@
 <principal-component></principal-component>
 
 @endsection
+
+@section('footer')
+
+<footer-component></footer-component>
+
+@endsection

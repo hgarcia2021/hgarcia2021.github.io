@@ -1,52 +1,61 @@
-.titulos{
+body{
+    background-color: #84b9d46b !important;
+}
+
+.titulos {
     font-size: 90px;
     font-style: italic;
-    color: #84B9D4;
+    color: #84b9d4;
     margin-top: -80px;
     margin-bottom: 40px;
     margin-left: 120px;
 }
+.titulo-principal {
+    font-size: 90px;
+    font-style: italic;
+    color: #84b9d4;
+    margin-left: 50px;
+    padding-top: 200px;
+}
 
 #header {
-
-
     align-items: center;
-    text-align:left;
-
+    text-align: left;
+    background-size: 100%;
     height: 1000px;
-  }
-  #presentacion{
-    color: #84B9D4;
+}
+#presentacion {
+    color: #84b9d4;
     padding-top: 350px;
     padding-left: 50px;
     font-size: 60px;
     font-style: italic;
-  }
-  .reflect {
-    color: #84B9D4;
+}
+.reflect {
+    color: #84b9d4;
     margin-bottom: 40px;
     -webkit-box-reflect: below -15px linear-gradient(transparent, rgba(255, 255, 255, 0.3));
     font-size: 90px;
     font-style: italic;
-    margin:0px auto;
+    margin: 0px auto;
     padding-top: 150px;
     padding-left: 50px;
 }
 section {
     padding: 150px 0;
     background-color: $secondary;
-  }
-  .navbar{
-      background-color: #141415;
-      color: #84B9D4;
-      position: fixed;
+}
+.navbar {
+    background-color: #141415;
+    color: #84b9d4;
+    position: fixed;
     z-index: 100;
     padding: 0;
 
     width: 100%;
     transition: all 0.5s;
-  }
-  .flotar {
+}
+.flotar {
     animation-name: floating;
     animation-duration: 4s;
     animation-iteration-count: infinite;
@@ -64,30 +73,150 @@ section {
     }
 }
 
-#perfil{
-
+#cepsem {
+    margin: auto;
+    border-radius: 20px;
+    background-size: cover;
+    height: 400px;
+    width: 600px;
 }
-p{
+p {
     font-size: 22px;
-
 }
-#skills{
-
-    background-color: #141415 ;
+span
+{
+    font-size: 22px;
 }
-
-h5{
-    color: #84B9D4;
+#skills {
+    background-color: #141415;
 }
 
-h2{
-    font-size:120px;
+h5 {
+    color: #84b9d4;
 }
-#footer{
-    background-color: #141415 ;
-}
-.card{
 
-    margin-left: 160px ;
+h2 {
+    font-size: 120px;
+}
+
+.card {
+    margin-left: 160px;
     border-radius: 60px;
 }
+.subtitulo {
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 30px;
+}
+.alinear-titulos {
+    text-align: center;
+}
+
+.x-navbar.x-navbar-fixed-left,
+.x-navbar.x-navbar-fixed-right {
+    overflow-y: scroll;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+.seccions {
+    margin: auto;
+    color: #84b9d4;
+    margin-left: 50px;
+}
+.recomercem {
+    margin: auto;
+    border-radius: 20px;
+    background-size: cover;
+    height: 400px;
+    width: 300px;
+}
+.recomercem a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.txtproject{
+    background-color: #141415;
+    color: #84b9d4;
+    border-radius: 20px;
+
+}
+.row{
+    padding: 0;
+}
+
+input[type=text], [type=email], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+
+  input[type=submit] {
+    background-color: #84b9d4;
+    color: #141415;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  input[type=submit]:hover {
+    background-color: #84b9d4;
+  }
+
+  label{
+
+    color: #84b9d4;
+  }
+
+  #footer{
+    background-color: #141415;
+    color:#84b9d4;
+    margin: auto;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    background-color: #220c33;
+    justify-content: center;
+    align-items: center;
+  }
+  #secciofooter{
+    margin: auto;
+    align-items: center;
+  }
+  #botonCurriculum {
+    height: 100px;
+    width: 180px;
+    background-color: #84b9d4;
+    border-radius: 20px;
+    border: 0px;
+
+}
+::-webkit-scrollbar {
+    width: 20px;
+  }
+
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px #141415;
+
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #141415;
+
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #141415;
+  }
+
+
+
